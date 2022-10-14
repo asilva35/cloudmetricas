@@ -57,25 +57,25 @@ export default function MainNavigation() {
           <div className="main-nav hide-xs hide-sm hide-md">
             <ul>
               <li className="active">
-                <a href="#acerca">Acerca</a>
+                <a href="#about">Acerca</a>
               </li>
               <li>
-                <a href="#servicios">Servicios</a>
+                <a href="#services">Servicios</a>
               </li>
               <li>
-                <a href="#soporte">Soporte</a>
+                <a href="#video02">Soporte</a>
               </li>
               <li>
-                <a href="#contacto">Contacto</a>
+                <a href="#contactus">Contacto</a>
               </li>
             </ul>
           </div>
           <div className="signup-group hide-xs hide-sm hide-md">
             <ul>
               <li>
-                <Link href="#">
-                  <a className="btn-main">Demo Gratis</a>
-                </Link>
+                <a href="#contactus" className="btn-main">
+                  Demo Gratis
+                </a>
               </li>
             </ul>
           </div>

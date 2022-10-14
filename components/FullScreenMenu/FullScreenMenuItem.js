@@ -51,33 +51,31 @@ export default function FullScreenMenuItem({
       whileTap={{ scale: 1 }}
       onClick={toggle}
     >
-      <Link href={href}>
-        <a>
-          <motion.div
-            className="icon-placeholder"
-            whileHover={{ backgroundColor: '#FFC93C' }}
-            whileTap={{ backgroundColor: '#FFC93C' }}
-          >
-            <div className="icon-white">
-              <Image
-                src={`/assets/images/${whiteIcon}`}
-                alt={label}
-                width={32}
-                height={32}
-              />
-            </div>
-            <div className="icon-blue">
-              <Image
-                src={`/assets/images/${blueIcon}`}
-                alt={label}
-                width={32}
-                height={32}
-              />
-            </div>
-          </motion.div>
-          <div className="text-placeholder">{label}</div>
-        </a>
-      </Link>
+      <a href={href}>
+        <motion.div
+          className="icon-placeholder"
+          whileHover={{ backgroundColor: '#FFC93C' }}
+          whileTap={{ backgroundColor: '#FFC93C' }}
+        >
+          <div className="icon-white">
+            <Image
+              src={`/assets/images/${whiteIcon}`}
+              alt={label}
+              width={32}
+              height={32}
+            />
+          </div>
+          <div className="icon-blue">
+            <Image
+              src={`/assets/images/${blueIcon}`}
+              alt={label}
+              width={32}
+              height={32}
+            />
+          </div>
+        </motion.div>
+        <div className="text-placeholder">{label}</div>
+      </a>
     </motion.li>
   );
 }

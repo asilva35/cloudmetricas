@@ -44,7 +44,7 @@ export default function FullScreenNavigation({ toggle }) {
         />
         <FullScreenMenuItem
           label={`Soporte`}
-          href={`#support`}
+          href={`#video02`}
           whiteIcon={`support-icon-white.png`}
           blueIcon={`support-icon-blue.png`}
           toggle={toggle}

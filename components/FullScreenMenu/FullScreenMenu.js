@@ -38,7 +38,7 @@ export default function FullScreenMenu() {
       <a
         id="btn-show-menu-full"
         className="btn-show-menu-full"
-        href="#"
+        href="#!"
         onClick={_toggleOpen}
       >
         <svg

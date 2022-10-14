@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import { motion, useCycle } from 'framer-motion';
+import MotionSweepUp from './MotionSweepUp';
 
 export default function Services() {
   const [isOpen, toggleOpen] = useCycle(false, true);
@@ -236,7 +237,7 @@ export default function Services() {
         <div className="row __sercices-items-row">
           <div className="col-3">
             <div className="__service-item" onClick={__toggleOpen}>
-              <div className="__service-item-icon noselect">
+              <MotionSweepUp className="__service-item-icon noselect" delay={0}>
                 <div className="__icon-blue">
                   <Image
                     src="/assets/images/services/procesos-icon-blue.png"
@@ -253,19 +254,22 @@ export default function Services() {
                     height={32}
                   />
                 </div>
-              </div>
-              <div className="__service-item-text">
+              </MotionSweepUp>
+              <MotionSweepUp className="__service-item-text" delay={0}>
                 <h3>Procesos</h3>
                 <p className="hide-xs hide-sm hide-md">
                   Excepteur sint occaecat cupidatat non proident, sunt in culpa
                   qui officia deserunt mollit anim id est laborum.
                 </p>
-              </div>
+              </MotionSweepUp>
             </div>
           </div>
           <div className="col-3">
             <div className="__service-item" onClick={__toggleOpen}>
-              <div className="__service-item-icon noselect">
+              <MotionSweepUp
+                className="__service-item-icon noselect"
+                delay={0.2}
+              >
                 <div className="__icon-blue">
                   <Image
                     src="/assets/images/services/seguridad-icon-blue.png"
@@ -282,19 +286,22 @@ export default function Services() {
                     height={32}
                   />
                 </div>
-              </div>
-              <div className="__service-item-text">
+              </MotionSweepUp>
+              <MotionSweepUp className="__service-item-text" delay={0.2}>
                 <h3>Seguridad</h3>
                 <p className="hide-xs hide-sm hide-md">
                   Excepteur sint occaecat cupidatat non proident, sunt in culpa
                   qui officia deserunt mollit anim id est laborum.
                 </p>
-              </div>
+              </MotionSweepUp>
             </div>
           </div>
           <div className="col-3">
             <div className="__service-item" onClick={__toggleOpen}>
-              <div className="__service-item-icon noselect">
+              <MotionSweepUp
+                className="__service-item-icon noselect"
+                delay={0.4}
+              >
                 <div className="__icon-blue">
                   <Image
                     src="/assets/images/services/analisis-icon-blue.png"
@@ -311,19 +318,22 @@ export default function Services() {
                     height={32}
                   />
                 </div>
-              </div>
-              <div className="__service-item-text">
+              </MotionSweepUp>
+              <MotionSweepUp className="__service-item-text" delay={0.4}>
                 <h3>Análisis</h3>
                 <p className="hide-xs hide-sm hide-md">
                   Excepteur sint occaecat cupidatat non proident, sunt in culpa
                   qui officia deserunt mollit anim id est laborum.
                 </p>
-              </div>
+              </MotionSweepUp>
             </div>
           </div>
           <div className="col-3">
             <div className="__service-item" onClick={__toggleOpen}>
-              <div className="__service-item-icon noselect">
+              <MotionSweepUp
+                className="__service-item-icon noselect"
+                delay={0.6}
+              >
                 <div className="__icon-blue">
                   <Image
                     src="/assets/images/services/capacidad-icon-blue.png"
@@ -340,19 +350,22 @@ export default function Services() {
                     height={23}
                   />
                 </div>
-              </div>
-              <div className="__service-item-text">
+              </MotionSweepUp>
+              <MotionSweepUp className="__service-item-text" delay={0.6}>
                 <h3>Capacidad</h3>
                 <p className="hide-xs hide-sm hide-md">
                   Excepteur sint occaecat cupidatat non proident, sunt in culpa
                   qui officia deserunt mollit anim id est laborum.
                 </p>
-              </div>
+              </MotionSweepUp>
             </div>
           </div>
           <div className="col-3">
             <div className="__service-item" onClick={__toggleOpen}>
-              <div className="__service-item-icon noselect">
+              <MotionSweepUp
+                className="__service-item-icon noselect"
+                delay={0.8}
+              >
                 <div className="__icon-blue">
                   <Image
                     src="/assets/images/services/entorno-icon-blue.png"
@@ -369,19 +382,22 @@ export default function Services() {
                     height={32}
                   />
                 </div>
-              </div>
-              <div className="__service-item-text">
+              </MotionSweepUp>
+              <MotionSweepUp className="__service-item-text" delay={0.8}>
                 <h3>Entorno</h3>
                 <p className="hide-xs hide-sm hide-md">
                   Excepteur sint occaecat cupidatat non proident, sunt in culpa
                   qui officia deserunt mollit anim id est laborum.
                 </p>
-              </div>
+              </MotionSweepUp>
             </div>
           </div>
           <div className="col-3">
             <div className="__service-item" onClick={__toggleOpen}>
-              <div className="__service-item-icon noselect">
+              <MotionSweepUp
+                className="__service-item-icon noselect"
+                delay={1.0}
+              >
                 <div className="__icon-blue">
                   <Image
                     src="/assets/images/services/conectividad-icon-blue.png"
@@ -398,19 +414,22 @@ export default function Services() {
                     height={32}
                   />
                 </div>
-              </div>
-              <div className="__service-item-text">
+              </MotionSweepUp>
+              <MotionSweepUp className="__service-item-text" delay={1.0}>
                 <h3>Conectividad</h3>
                 <p className="hide-xs hide-sm hide-md">
                   Excepteur sint occaecat cupidatat non proident, sunt in culpa
                   qui officia deserunt mollit anim id est laborum.
                 </p>
-              </div>
+              </MotionSweepUp>
             </div>
           </div>
           <div className="col-3">
             <div className="__service-item" onClick={__toggleOpen}>
-              <div className="__service-item-icon noselect">
+              <MotionSweepUp
+                className="__service-item-icon noselect"
+                delay={1.2}
+              >
                 <div className="__icon-blue">
                   <Image
                     src="/assets/images/services/visualizacion-icon-blue.png?v=0.1"
@@ -427,19 +446,22 @@ export default function Services() {
                     height={32}
                   />
                 </div>
-              </div>
-              <div className="__service-item-text">
+              </MotionSweepUp>
+              <MotionSweepUp className="__service-item-text" delay={1.2}>
                 <h3>Visualización</h3>
                 <p className="hide-xs hide-sm hide-md">
                   Excepteur sint occaecat cupidatat non proident, sunt in culpa
                   qui officia deserunt mollit anim id est laborum.
                 </p>
-              </div>
+              </MotionSweepUp>
             </div>
           </div>
           <div className="col-3">
             <div className="__service-item" onClick={__toggleOpen}>
-              <div className="__service-item-icon noselect">
+              <MotionSweepUp
+                className="__service-item-icon noselect"
+                delay={1.4}
+              >
                 <div className="__icon-blue">
                   <Image
                     src="/assets/images/services/energia-icon-blue.png"
@@ -456,14 +478,14 @@ export default function Services() {
                     height={24}
                   />
                 </div>
-              </div>
-              <div className="__service-item-text">
+              </MotionSweepUp>
+              <MotionSweepUp className="__service-item-text" delay={1.4}>
                 <h3>Energía</h3>
                 <p className="hide-xs hide-sm hide-md">
                   Excepteur sint occaecat cupidatat non proident, sunt in culpa
                   qui officia deserunt mollit anim id est laborum.
                 </p>
-              </div>
+              </MotionSweepUp>
             </div>
           </div>
         </div>
