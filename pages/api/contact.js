@@ -32,34 +32,30 @@ export default function handler(req, res) {
               req.body.position
             }\n\n | Message: ${
               req.body.message
-            }\n\nEstoy interesado en: Análisis (${
-              req.body.services_analisis ? 'si' : 'no'
-            }) , Seguimiento (${
-              req.body.services_seguimiento ? 'si' : 'no'
-            }), Configuración (${
-              req.body.services_configuracion ? 'si' : 'no'
-            }), Soporte (${
+            }\n\nEstoy interesado en: Capacitación (${
+              req.body.services_capacitacion ? 'si' : 'no'
+            }) ,Soporte (${
               req.body.services_soporte ? 'si' : 'no'
-            }), Seguimiento (${
-              req.body.services_asesoria ? 'si' : 'no'
-            }), Otro (${req.body.services_otro ? 'si' : 'no'})`,
+            }), Consultoria (${
+              req.body.services_consultoria ? 'si' : 'no'
+            }),  Webinar (${req.body.services_webinar ? 'si' : 'no'}), Otro (${
+              req.body.services_otro ? 'si' : 'no'
+            })`,
             html: `<div>Name: ${req.body.fullName}\n\n<br/>Email: ${
               req.body.email
             }\n\n<br/>Company: ${req.body.company}\n\n<br/>Position: ${
               req.body.position
             }\n\n<br/>Message: ${
               req.body.message
-            }\n\n<br/>Estoy interesado en:<br/> Análisis (${
-              req.body.services_analisis ? 'si' : 'no'
-            }) , Seguimiento (${
-              req.body.services_seguimiento ? 'si' : 'no'
-            }), Configuración (${
-              req.body.services_configuracion ? 'si' : 'no'
-            }), Soporte (${
+            }\n\n<br/>Estoy interesado en:<br/> Capacitación (${
+              req.body.services_capacitacion ? 'si' : 'no'
+            }) , Soporte (${
               req.body.services_soporte ? 'si' : 'no'
-            }), Seguimiento (${
-              req.body.services_asesoria ? 'si' : 'no'
-            }), Otro (${req.body.services_otro ? 'si' : 'no'}) </div>`,
+            }), Consultoria (${
+              req.body.services_consultoria ? 'si' : 'no'
+            }),  Webinar (${req.body.services_webinar ? 'si' : 'no'}), Otro (${
+              req.body.services_otro ? 'si' : 'no'
+            }) </div>`,
           };
 
           transporter.sendMail(mailData, function (err, info) {

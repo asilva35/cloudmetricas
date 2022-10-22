@@ -987,6 +987,10 @@ flex-direction: column;
   transform: scale(0.7);
 }
 
+#partners .__logos-partners .motion-sweep-up {
+  width: 100%;
+}
+
 @media only screen and (min-width: 992px){
   #partners p{
     font-size:22px;
@@ -1059,7 +1063,7 @@ flex-direction: column;
 #services .__service-item{
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: flex-start;
   flex-direction: column;
   height: 104px;
 }
@@ -1152,6 +1156,29 @@ flex-direction: column;
   margin: 2px 0;
 }
 
+#services .__service-item .modal-button{
+  text-decoration: underline;
+  color: var(--primary-color);
+  font-weight: bold;
+  margin-top: 0px;
+  cursor: pointer;
+  text-align: center;
+}
+
+#services .__service-item .modal-window-body p{
+  font-size: 32px;
+  max-width: 550px;
+  margin: auto;
+}
+
+#services .__service-item:hover .modal-button{
+  color: var(--white-links);
+}
+
+#services .__service-item .modal-container{
+  display: none;
+}
+
 @media only screen and (min-width: 992px){
   #services{
     background: #FFFFFF;
@@ -1199,6 +1226,10 @@ flex-direction: column;
   
   #services .__service-item:hover .__icon-blue{
     display: none;
+  }
+
+  #services .__service-item .modal-container{
+    display: block;
   }
 }
 /*END - SERVICES*/
@@ -1384,6 +1415,9 @@ flex-direction: column;
   align-items: flex-start;
   gap: 10px;
   color: var(--white-links);
+}
+#footer ul li a .cnt-icon{
+  width: 32px;
 }
 #footer ul li a:hover{
   text-decoration: underline;
@@ -1579,3 +1613,49 @@ flex-direction: column;
   
 }*/
 /*END - MODAL WINDOW*/
+
+.logos-group-animated{
+  width: auto;
+  height: 40px;
+  overflow: hidden;
+  position: relative;
+}
+.logos-group-container{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: logos-group 8s linear infinite;
+}
+
+.logo-group-item{
+  height: 40px;
+}
+
+.logos-group-container.delay-1{
+  animation-delay: 1s;
+}
+
+@keyframes logos-group {
+  0% {
+    transform: translateY(0);
+  }
+  20% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(calc(-100% + 45px));
+  }
+  70% {
+    transform: translateY(calc(-100% + 45px));
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

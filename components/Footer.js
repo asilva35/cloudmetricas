@@ -24,7 +24,11 @@ export default function Footer() {
             <div className="social-footer">
               <ul>
                 <li>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href="https://www.facebook.com/cloudmetricas"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <Image
                       src="/assets/images/icon-facebook.png"
                       alt="Facebook"
@@ -34,7 +38,11 @@ export default function Footer() {
                   </a>
                 </li>
                 <li className="hide">
-                  <a href="#" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href="https://twitter.com/cloudmetricas"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <Image
                       src="/assets/images/icon-twitter.png"
                       alt="Twitter"
@@ -44,7 +52,11 @@ export default function Footer() {
                   </a>
                 </li>
                 <li className="hide">
-                  <a href="#" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href="https://www.youtube.com/channel/UCj_UQZNUnfF7vseVyqriaHA"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <Image
                       src="/assets/images/icon-youtube.png"
                       alt="Youtube"
@@ -54,20 +66,14 @@ export default function Footer() {
                   </a>
                 </li>
                 <li>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href="https://www.linkedin.com/in/cloudmetricas/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <Image
                       src="/assets/images/icon-linkedin.png"
                       alt="Linkedin"
-                      width={58}
-                      height={58}
-                    ></Image>
-                  </a>
-                </li>
-                <li className="hide">
-                  <a href="#" target="_blank" rel="noopener noreferrer">
-                    <Image
-                      src="/assets/images/icon-instagram.png"
-                      alt="Instagram"
                       width={58}
                       height={58}
                     ></Image>
@@ -123,24 +129,56 @@ export default function Footer() {
               <ul>
                 <li>
                   <a href="#!">
-                    <Image
-                      src="/assets/images/icon-map.png"
-                      alt="Map"
-                      width={18}
-                      height={18}
-                    ></Image>
-                    Calle # - Edf. AAA - Oficinas #123
+                    <div class="cnt-icon">
+                      <Image
+                        src="/assets/images/icon-map.png"
+                        alt="Map"
+                        width={18}
+                        height={18}
+                      ></Image>
+                    </div>
+                    <span>
+                      Colombia: Centro Empresarial MAZ, Carrera 55 # 152B - 68
+                      Bogotá Cundinamarca.
+                    </span>
                   </a>
                 </li>
                 <li>
-                  <a href="tel:3001234567">
+                  <a href="#!">
+                    <div class="cnt-icon">
+                      <Image
+                        src="/assets/images/icon-map.png"
+                        alt="Map"
+                        width={18}
+                        height={18}
+                      ></Image>
+                    </div>
+                    <span>
+                      Alemania: Schwetzinger Straße 63 69124, Heidelberg,
+                      Baden-Württemberg Germany.
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="tel:+573026611625">
                     <Image
-                      src="/assets/images/icon-phone.png"
-                      alt="Phone"
+                      src="/assets/images/whatsapp-icon.png"
+                      alt="Whatsapp"
                       width={18}
                       height={18}
                     ></Image>
-                    300-123 45 67
+                    +57 3026611625
+                  </a>
+                </li>
+                <li>
+                  <a href="#!">
+                    <Image
+                      src="/assets/images/telegram-icon.png"
+                      alt="Telegram"
+                      width={18}
+                      height={18}
+                    ></Image>
+                    @Cloud_Metricas
                   </a>
                 </li>
                 <li>

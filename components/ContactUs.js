@@ -19,11 +19,10 @@ export default function ContactUs({ reference }) {
     company,
     position,
     message,
-    services_analisis,
-    services_seguimiento,
-    services_configuracion,
+    services_capacitacion,
     services_soporte,
-    services_asesoria,
+    services_consultoria,
+    services_webinar,
     services_otro,
   }) => {
     let data = {
@@ -32,11 +31,10 @@ export default function ContactUs({ reference }) {
       company,
       position,
       message,
-      services_analisis,
-      services_seguimiento,
-      services_configuracion,
+      services_capacitacion,
       services_soporte,
-      services_asesoria,
+      services_consultoria,
+      services_webinar,
       services_otro,
     };
 
@@ -184,37 +182,13 @@ export default function ContactUs({ reference }) {
               </div>
               <h4>Estoy interesado en:</h4>
               <div className="form-group __switch-group">
-                <label htmlFor="services">Análisis</label>
+                <label htmlFor="services">Capacitación</label>
                 <label className="switch-input">
                   <input
                     type="checkbox"
                     className="form-control"
-                    id="services_analisis"
-                    {...register('services_analisis')}
-                  />
-                  <span className="slider round"></span>
-                </label>
-              </div>
-              <div className="form-group __switch-group">
-                <label htmlFor="services">Seguimiento</label>
-                <label className="switch-input">
-                  <input
-                    type="checkbox"
-                    className="form-control"
-                    id="services_seguimiento"
-                    {...register('services_seguimiento')}
-                  />
-                  <span className="slider round"></span>
-                </label>
-              </div>
-              <div className="form-group __switch-group">
-                <label htmlFor="services">Configuración</label>
-                <label className="switch-input">
-                  <input
-                    type="checkbox"
-                    className="form-control"
-                    id="services_configuracion"
-                    {...register('services_configuracion')}
+                    id="services_capacitacion"
+                    {...register('services_capacitacion')}
                   />
                   <span className="slider round"></span>
                 </label>
@@ -232,13 +206,25 @@ export default function ContactUs({ reference }) {
                 </label>
               </div>
               <div className="form-group __switch-group">
-                <label htmlFor="services">Asesoría</label>
+                <label htmlFor="services">Consultoria</label>
                 <label className="switch-input">
                   <input
                     type="checkbox"
                     className="form-control"
-                    id="services_asesoria"
-                    {...register('services_asesoria')}
+                    id="services_consultoria"
+                    {...register('services_consultoria')}
+                  />
+                  <span className="slider round"></span>
+                </label>
+              </div>
+              <div className="form-group __switch-group">
+                <label htmlFor="services">Webinar</label>
+                <label className="switch-input">
+                  <input
+                    type="checkbox"
+                    className="form-control"
+                    id="services_webinar"
+                    {...register('services_webinar')}
                   />
                   <span className="slider round"></span>
                 </label>

@@ -17,42 +17,130 @@ export default function Partners() {
           <div className="col-12 __logos-partners">
             <div className="col-3">
               <MotionSweepUp>
-                <Image
-                  src="/assets/images/logo-linux.png"
-                  alt="Logo Linux"
-                  width={164}
-                  height={40}
-                />
+                <div className="logos-group-animated">
+                  <div className="logos-group-container">
+                    <div className="logo-group-item">
+                      <Image
+                        src="/assets/images/logo-linux.png?v=0.0.1"
+                        alt="Logo Linux"
+                        width={126.54}
+                        height={40}
+                      />
+                    </div>
+                    <div className="logo-group-item">
+                      <Image
+                        src="/assets/images/logo-zabbix.png"
+                        alt="Logo Zabbix"
+                        width={152.67}
+                        height={40}
+                      />
+                    </div>
+                    <div className="logo-group-item">
+                      <Image
+                        src="/assets/images/logo-nginx.png"
+                        alt="Logo NGINX"
+                        width={136.53}
+                        height={40}
+                      />
+                    </div>
+                  </div>
+                </div>
               </MotionSweepUp>
             </div>
             <div className="col-3">
               <MotionSweepUp delay={0.3}>
-                <Image
-                  src="/assets/images/logo-microsoft.png"
-                  alt="Logo Microsoft"
-                  width={234.38}
-                  height={40}
-                />
+                <div className="logos-group-animated">
+                  <div className="logos-group-container delay-1">
+                    <div className="logo-group-item">
+                      <Image
+                        src="/assets/images/logo-amazon.png?v=0.01"
+                        alt="Logo Amazon"
+                        width={207.99}
+                        height={40}
+                      />
+                    </div>
+                    <div className="logo-group-item">
+                      <Image
+                        src="/assets/images/logo-mariadb.png"
+                        alt="Logo Maria DB"
+                        width={160.41}
+                        height={40}
+                      />
+                    </div>
+                    <div className="logo-group-item">
+                      <Image
+                        src="/assets/images/logo-ubuntu.png"
+                        alt="Logo Ubuntu"
+                        width={187.65}
+                        height={40}
+                      />
+                    </div>
+                  </div>
+                </div>
               </MotionSweepUp>
             </div>
             <div className="col-3">
               <MotionSweepUp delay={0.6}>
-                <Image
-                  src="/assets/images/logo-azure.png"
-                  alt="Logo Azure"
-                  width={147}
-                  height={40}
-                />
+                <div className="logos-group-animated">
+                  <div className="logos-group-container delay">
+                    <div className="logo-group-item">
+                      <Image
+                        src="/assets/images/logo-azure.png"
+                        alt="Logo Azure"
+                        width={147}
+                        height={40}
+                      />
+                    </div>
+                    <div className="logo-group-item">
+                      <Image
+                        src="/assets/images/logo-postgresql.png"
+                        alt="Logo Postgresql"
+                        width={204.8}
+                        height={40}
+                      />
+                    </div>
+                    <div className="logo-group-item">
+                      <Image
+                        src="/assets/images/logo-debian.png"
+                        alt="Logo Debian"
+                        width={79.5}
+                        height={40}
+                      />
+                    </div>
+                  </div>
+                </div>
               </MotionSweepUp>
             </div>
             <div className="col-3">
               <MotionSweepUp delay={0.9}>
-                <Image
-                  src="/assets/images/logo-vmware.png"
-                  alt="Logo VMWare"
-                  width={306}
-                  height={40}
-                />
+                <div className="logos-group-animated delay-1">
+                  <div className="logos-group-container delay">
+                    <div className="logo-group-item">
+                      <Image
+                        src="/assets/images/logo-apache.png"
+                        alt="Logo Apache"
+                        width={93.32}
+                        height={40}
+                      />
+                    </div>
+                    <div className="logo-group-item">
+                      <Image
+                        src="/assets/images/logo-postgresql.png"
+                        alt="Logo Postgresql"
+                        width={204.8}
+                        height={40}
+                      />
+                    </div>
+                    <div className="logo-group-item">
+                      <Image
+                        src="/assets/images/logo-suse.png"
+                        alt="Logo Suse"
+                        width={88.15}
+                        height={40}
+                      />
+                    </div>
+                  </div>
+                </div>
               </MotionSweepUp>
             </div>
           </div>

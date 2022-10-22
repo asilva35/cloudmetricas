@@ -16,18 +16,21 @@ export default function About() {
             </MotionSweepUp>
             <p>
               <MotionSweepUp delay={0.3}>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry standard dummy text
-                ever since the 1500s, when an unknown printer took a galley of
-                type and scrambled it to make a type specimen book.{' '}
+                Cloud Métricas es una unidad de servicios de monitoreo de
+                ACADEMY DATACENTER SAS y ha sido creada para desarrollar
+                soluciones de monitoreo para infraestructura física de TIC.
+                Además del desarrollo del software de monitoreo, ofrecemos una
+                amplia gama de servicios profesionales, desde consultoría hasta
+                soluciones turn-key, soporte técnico 24/7 y capacitación
+                profesional multinivel.{' '}
               </MotionSweepUp>
             </p>
             <FramerMReadMore labelOpen="Leer Más" labelClose="Leer Menos">
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry standard dummy text
-                ever since the 1500s, when an unknown printer took a galley of
-                type and scrambled it to make a type specimen book.{' '}
+                Entre los usuarios finales de Cloud métricas, están
+                instituciones gubernamentales de diferentes países y fabricantes
+                de equipos para infraestructura física en el área de energía,
+                climatización de precisión y soluciones para centro de datos.{' '}
               </p>
             </FramerMReadMore>
           </div>
