@@ -129,7 +129,7 @@ export default function Footer() {
               <ul>
                 <li>
                   <a href="#!">
-                    <div class="cnt-icon">
+                    <div className="cnt-icon">
                       <Image
                         src="/assets/images/icon-map.png"
                         alt="Map"
@@ -145,7 +145,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <a href="#!">
-                    <div class="cnt-icon">
+                    <div className="cnt-icon">
                       <Image
                         src="/assets/images/icon-map.png"
                         alt="Map"

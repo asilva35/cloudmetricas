@@ -14,8 +14,9 @@ export default function About() {
                 <b>Ahorra</b> en costos y <b>mejora</b> tus procesos
               </h2>
             </MotionSweepUp>
-            <p>
-              <MotionSweepUp delay={0.3}>
+
+            <MotionSweepUp delay={0.3}>
+              <p>
                 Cloud Métricas es una unidad de servicios de monitoreo de
                 ACADEMY DATACENTER SAS y ha sido creada para desarrollar
                 soluciones de monitoreo para infraestructura física de TIC.
@@ -23,8 +24,9 @@ export default function About() {
                 amplia gama de servicios profesionales, desde consultoría hasta
                 soluciones turn-key, soporte técnico 24/7 y capacitación
                 profesional multinivel.{' '}
-              </MotionSweepUp>
-            </p>
+              </p>
+            </MotionSweepUp>
+
             <FramerMReadMore labelOpen="Leer Más" labelClose="Leer Menos">
               <p>
                 Entre los usuarios finales de Cloud métricas, están

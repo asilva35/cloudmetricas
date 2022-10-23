@@ -15,20 +15,22 @@ import Footer from '../components/Footer';
 export default function Home() {
   const ref = useRef();
   const isContactInView = useIntersection(ref, '0px');
-
   return (
     <>
       <Metaheader title="Cloudmetricas"></Metaheader>
       <LoadingScreen></LoadingScreen>
+
       <Layout id="home" className={!isContactInView ? 'pading-bottom-100' : ''}>
         <HomeHeader></HomeHeader>
         <Partners></Partners>
         <About></About>
+
         <Services></Services>
         <Video02></Video02>
         <ContactUs reference={ref}></ContactUs>
         <Footer></Footer>
       </Layout>
+
       {!isContactInView && <FixedButton></FixedButton>}
     </>
   );
