@@ -24,7 +24,7 @@ export default function handler(req, res) {
 
           const mailData = {
             from: 'CloudMetricas Site <cloudmetricas@sistev.co>',
-            to: 'sistev.contacto@gmail.com',
+            to: 'daye@academydatacenter.com',
             subject: `Message From ${req.body.fullName}`,
             text: `Name: ${req.body.fullName}\n\n | Email: ${
               req.body.email
