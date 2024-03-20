@@ -13,12 +13,12 @@ export default function handler(req, res) {
         if (reCaptchaRes?.score > 0.5) {
           let nodemailer = require('nodemailer');
           const transporter = nodemailer.createTransport({
-            host: 'mail.sistev.co',
-            port: 465,
+            host: process.env.NODEMAILER_HOST,
+            port: process.env.NODEMAILER_PORT,
             secure: true,
             auth: {
-              user: 'cloudmetricas@sistev.co',
-              pass: process.env.EMAIL_PASSWORD,
+              user: process.env.NODEMAILER_USER,
+              pass: process.env.NODEMAILER_PASSWORD,
             },
           });
 

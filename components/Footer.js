@@ -160,14 +160,14 @@ export default function Footer() {
                   </a>
                 </li>
                 <li>
-                  <a href="tel:+573026611625">
+                  <a href="tel:+573503725200">
                     <Image
                       src="/assets/images/whatsapp-icon.png"
                       alt="Whatsapp"
                       width={18}
                       height={18}
                     ></Image>
-                    +57 3026611625
+                    +57 3503725200
                   </a>
                 </li>
                 <li>
@@ -199,7 +199,8 @@ export default function Footer() {
         <div className="row copyright">
           <div className="col-12">
             <h3>
-              Cloud Metricas Website. All rights reserved. - &copy; 2022 by{' '}
+              Cloud Metricas Website. All rights reserved. - &copy;{' '}
+              {new Date().getFullYear()} by{' '}
               {/* eslint-disable-next-line react/jsx-no-target-blank*/}
               <a href="https://virtel.co" target="_blank">
                 Virtel
